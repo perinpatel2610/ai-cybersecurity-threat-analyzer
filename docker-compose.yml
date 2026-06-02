@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend-node
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend-node/.env
+    restart: unless-stopped
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    depends_on:
+      - backend
+    restart: unless-stopped
