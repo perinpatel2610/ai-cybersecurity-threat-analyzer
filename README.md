@@ -26,6 +26,22 @@ A Generative AI-powered cybersecurity log analysis platform that uses **Amazon B
 
 ---
 
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Threat Analysis Result
+![Analysis Result](screenshots/analysis-result.png)
+
+### Security Assistant Chat
+![Chat Assistant](screenshots/chat-assistant.png)
+
+### Demo
+> 📹 [Watch Demo Video](screenshots/demo.mp4)
+
+---
+
 ## Overview
 
 This application accepts raw security logs such as SSH logs, web server logs, firewall logs, and EDR-style alerts, then uses a large language model on Amazon Bedrock to analyze them for possible threats.
