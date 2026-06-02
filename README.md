@@ -36,19 +36,6 @@ A built-in Security Assistant chat allows users to ask follow-up questions about
 
 ---
 
-## Screenshots
-
-### Threat Analysis Dashboard
-![Threat Analysis Dashboard](screenshots/dashboard.png)
-
-### AI Incident Report
-![AI Incident Report](screenshots/analysis-result.png)
-
-### Security Assistant Chat
-![Security Assistant Chat](screenshots/chat-assistant.png)
-
----
-
 ## Architecture
 
 ```text
