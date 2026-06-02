@@ -38,8 +38,6 @@ A built-in Security Assistant chat allows users to ask follow-up questions about
 
 ## Screenshots
 
-> Add your screenshots inside a `screenshots/` folder and update the image paths below.
-
 ### Threat Analysis Dashboard
 ![Threat Analysis Dashboard](screenshots/dashboard.png)
 
